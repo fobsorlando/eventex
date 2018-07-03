@@ -1,0 +1,18 @@
+MESSAGE = """
+Olá.
+
+Obrigada por se inscrever na Eventex.
+
+Este foram os dados que você nos ofereceu
+em sua inscrição:
+
+Nome: {{ name }}
+CPF:  {{ cpf }}
+Email: {{ email }}
+Telefone: {{ phone }}
+
+Você receberá uma confirmação em breve.
+
+att
+
+"""
