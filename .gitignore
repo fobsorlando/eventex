@@ -1,6 +1,8 @@
-.env
+.env 
 .idea
 .wttd
 *.sqlite3
-*pyc
+*pysc
 __pycache__
+landingpage*
+__MAC*
