@@ -1,4 +1,4 @@
-MESSAGE = """
+
 Olá.
 
 Obrigada por se inscrever na Eventex.
@@ -15,4 +15,3 @@ Você receberá uma confirmação em breve.
 
 att
 
-"""
