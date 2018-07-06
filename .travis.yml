@@ -1,0 +1,10 @@
+language: python
+python:
+   - "3.5"
+
+install:
+   - cp contrig/env-sample .env
+   - pip install -q -r requirements.txt
+
+scripts:
+  - python manage.py test
