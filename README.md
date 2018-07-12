@@ -21,7 +21,7 @@ git clone git@github....  wttd (ver depois como faz)
 cd wttd
 python3 -m venv .wttd
 source .wttd/bin/activate
-pip install -r requirements.txt
+pip install -r requirements-dev.txt
 cp contrib/env-sample .env
 python manage.py test
 

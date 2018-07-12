@@ -11,11 +11,7 @@ https://docs.djangoproject.com/en/2.0/ref/settings/
 """
 
 import os
-<<<<<<< HEAD
 from decouple import config, Csv
-=======
-from decouple import config
->>>>>>> db55e174180167873c4f30e471084b28eb1d03f5
 from dj_database_url import parse as dburl
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
@@ -31,12 +27,9 @@ SECRET_KEY = config('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = config('DEBUG',default=False,cast=bool)
 
-<<<<<<< HEAD
 #ALLOWED_HOSTS = ['*']
 ALLOWED_HOSTS = config('ALLOWED_HOSTS', default=[], cast=Csv())
-=======
-ALLOWED_HOSTS = ['*']
->>>>>>> db55e174180167873c4f30e471084b28eb1d03f5
+
 
 
 # Application definition
