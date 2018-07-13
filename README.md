@@ -15,17 +15,16 @@ Sistema de Eventos para aprendizado
 5. Configure a instancia com o .env;
 6. Execute os testes.
 
-''' console
-
-git clone git@github....  wttd (ver depois como faz)
+```console
+git clone git@github.com/fobsorlando/eventex  wttd (ver depois como faz)
 cd wttd
 python3 -m venv .wttd
 source .wttd/bin/activate
 pip install -r requirements-dev.txt
 cp contrib/env-sample .env
 python manage.py test
+```
 
-'''
 ## Como fazer Deploy?
 
 1. Crie uma instancia no Heroku;
@@ -35,13 +34,13 @@ python manage.py test
 5. Configure o serviço de E-Mail;
 6. Envie o codigo para o Heroku;
 
-''' console
+```console
 heroku create minhainstancia
 heroku config:push
 heroku config:set SECRET_KEY='python contrig/secret_gen.py'
 heroku config:set DEBUG=False
 # Configure o e-mail
 git push heorku master --force
-'''
+```
 
 
