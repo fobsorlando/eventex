@@ -1,15 +1,15 @@
 
 Olá.
 
-Obrigada por se inscrever na Eventex.
+Obrigado por se inscrever na Eventex.
 
 Este foram os dados que você nos ofereceu
 em sua inscrição:
 
-Nome: {{ name }}
-CPF:  {{ cpf }}
-Email: {{ email }}
-Telefone: {{ phone }}
+Nome: {{ subscription.name }}
+CPF:  {{ subscription.cpf }}
+Email: {{ subscription.email }}
+Telefone: {{ subscription.phone }}
 
 Você receberá uma confirmação em breve.
 
