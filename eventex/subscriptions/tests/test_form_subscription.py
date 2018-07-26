@@ -24,6 +24,11 @@ class SubscriptionFormTest(TestCase):
         #self.assertFormErrorMessage(form, 'cpf', 'CPF deve ter 11 (onze) números')
         self.assertFormErrorCode(form, 'cpf', 'length')
 
+    def test_name_must_be_captalazed(self):
+        ''' Nome deve estar captalizado'''
+        form = self.make_validated_form(name = 'ORLANDO saboia')
+        self.assertEqual('Orlando Saboia', form.cleaned_data['name'])
+
     def assertFormErrorCode(self, form, field, code):
 
         errors = form.errors.as_data()
