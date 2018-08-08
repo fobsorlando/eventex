@@ -1,0 +1,35 @@
+[
+{
+    "model": "core.speaker",
+    "pk": 1,
+    "fields": {
+        "name": "Grace Hopper",
+        "slug": "grace-hiopper",
+        "photo": "http://hbn.link/hopper-pic",
+        "website": "http://hbn.link/hopper-site",
+        "description": "Programadora e Almirante.\r\nGrace Murray Hopper (Nova Iorque, 9 de dezembro de 1906 \u2014 Condado de Arlington, 1 de janeiro de 1992) foi uma analista de sistemas da Marinha dos Estados Unidos nas d\u00e9cadas de 1940 e 1950 e almirante. Foi ela quem criou a linguagem de programa\u00e7\u00e3o Flow-Matic, hoje extinta. Esta linguagem serviu como base para a cria\u00e7\u00e3o do COBOL. Ela tamb\u00e9m foi uma das primeiras programadoras do Harvard Mark I[1] em 1944."
+    }
+},
+{
+    "model": "core.speaker",
+    "pk": 2,
+    "fields": {
+        "name": "Alan Turin",
+        "slug": "alan-turing",
+        "photo": "http://hbn.link/turing-pic",
+        "website": "http://hbn.link/turing-site",
+        "description": "Alan Turing\r\n\r\nAlan Turing em 1927, aos dezesseis anos de idade\r\nNome completo\tAlan Mathison Turing\r\nConhecido(a) por\tM\u00e1quina de Turing, Problema da parada, Teste de Turing, Pr\u00eamio Turing\r\nNascimento\t23 de junho de 1912\r\nPaddington, Londres, Inglaterra, Reino Unido\r\nMorte\t7 de junho de 1954 (41 anos)\r\nWilmslow, Cheshire, Inglaterra, Reino Unido\r\nResid\u00eancia\tReino Unido\r\nNacionalidade\tbrit\u00e2nico\r\nAlma mater\tUniversidade de Cambridge\r\nUniversidade de Princeton\r\nPr\u00eamios\tOfficer of the Order of the British Empire\r\nFellow of the Royal Society\r\nCausa da morte\tSuposto suic\u00eddio por ingest\u00e3o de cianeto\r\nOrientador(es)\tAlonzo Church\r\nOrientado(s)\tRobin Gandy\r\nInstitui\u00e7\u00f5es\tUniversidade de Manchester\r\nNational Physical Laboratory\r\nUniversidade de Cambridge\r\nCampo(s)\tmatem\u00e1tica, l\u00f3gica e criptoan\u00e1lise\r\nM\u00e1quina de Turing\r\nM\u00e1quina\r\nM\u00e1quina de Turing universal\r\nM\u00e1quina de Turing alternada\r\nM\u00e1quina de Turing qu\u00e2ntica\r\nM\u00e1quina de Turing n\u00e3o determin\u00edstica\r\nM\u00e1quina de Turing somente de leitura\r\nM\u00e1quina de Turing movimenta\u00e7\u00e3o \u00e0 direita\r\nM\u00e1quina de Turing probabil\u00edstica\r\nM\u00e1quina de Turing multifita\r\nM\u00e1quina de Turing de V\u00e1rias Faixas\r\nM\u00e1quinas de Turing equivalentes\r\nExemplos de M\u00e1quinas de Turing\r\nCi\u00eancia\r\nAlan Turing\r\nCategoria:M\u00e1quina de Turing\r\nvde\r\nAlan Mathison Turing OBE (Paddington, Londres, 23 de junho de 1912 \u2014 Cheshire East, Cheshire, 7 de junho de 1954) foi um matem\u00e1tico, l\u00f3gico, criptoanalista e cientista da computa\u00e7\u00e3o brit\u00e2nico. Foi influente no desenvolvimento da ci\u00eancia da computa\u00e7\u00e3o e na formaliza\u00e7\u00e3o do conceito de algoritmo e computa\u00e7\u00e3o com a m\u00e1quina de Turing, desempenhando um papel importante na cria\u00e7\u00e3o do computador moderno.[1][2][3] Foi tamb\u00e9m pioneiro na intelig\u00eancia artificial e na ci\u00eancia da computa\u00e7\u00e3o.[4] \u00c9 conhecido como o pai da computa\u00e7\u00e3o."
+    }
+},
+{
+    "model": "core.speaker",
+    "pk": 3,
+    "fields": {
+        "name": "Tanque",
+        "slug": "tanque",
+        "photo": "https://www.aereo.jor.br/wp-content/uploads//2013/12/767-MMTT-imagem-IAI.jpg",
+        "website": "https://www.aereo.jor.br/wp-content/uploads//2013/12/767-MMTT-imagem-IAI.jpg",
+        "description": "Avi\u00e3o Tanque"
+    }
+}
+]
